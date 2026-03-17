@@ -3,28 +3,28 @@ layout: base.njk
 ---
 <article>
   <div class="mx-auto max-w-5xl w-full">
-    <div class="max-w-2xl mx-auto">
-    <header class="mb-8 pb-4 border-b border-line">
+    <div class="max-w-3xl mx-auto">
+    <header>
       <a href="{{ '/blog/' | url }}" class="inline-flex items-center text-xs text-fg-3 no-underline hover:text-fg-1 transition-colors mb-4">
         ← Back to Blog
       </a>
-      <h1 class="mb-2">{{ title }}</h1>
-      {% if description %}<p class="text-fg-2 mt-3 mb-4 text-lg leading-snug">{{ description }}</p>{% endif %}
-      <div class="text-sm text-fg-3 flex flex-wrap gap-x-6 gap-y-2 border-t border-line pt-3 mt-4">
+      <h1 class="mb-6">{{ title }}</h1>
+      {% if description %}<p class="text-fg-2 mt-6 mb-8 text-base md:text-lg leading-snug">{{ description }}</p>{% endif %}
+      <div class="text-sm flex flex-wrap gap-x-10 gap-y-2 border-t border-b border-line py-4 mt-8 mb-12">
         {% if author %}
         <div>
           <div class="text-xs uppercase tracking-wide text-fg-4 mb-0.5 font-mono">Author</div>
-          <span>{{ author }}</span>
+          <span class="text-fg-2">{{ author }}</span>
         </div>
         {% endif %}
         <div>
           <div class="text-xs uppercase tracking-wide text-fg-4 mb-0.5 font-mono">Published</div>
-          <time>{{ date | dateFormat }}</time>
+          <time class="text-fg-2">{{ date | dateFormat }}</time>
         </div>
         {% if updated %}
         <div>
           <div class="text-xs uppercase tracking-wide text-fg-4 mb-0.5 font-mono">Updated</div>
-          <time>{{ updated | dateFormat }}</time>
+          <time class="text-fg-2">{{ updated | dateFormat }}</time>
         </div>
         {% endif %}
       </div>
