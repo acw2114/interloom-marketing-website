@@ -1,7 +1,9 @@
 ---
-title: Audit Trail and Compliance Reports
+title: Audit trail and compliance reports
 date: 2025-04-14
 tag: Security
 ---
 
-Interloom added end-to-end execution logging, one-click compliance report generation, and role-scoped access controls for audit-ready operations in regulated environments. Customers can prepare audits faster, reduce compliance risk, and prove process integrity with less manual evidence gathering.
+We've added end-to-end execution logging, one-click compliance report generation, and role-scoped access controls.
+
+If you're in a regulated environment, you can now prepare audits faster and prove process integrity without manually gathering evidence.

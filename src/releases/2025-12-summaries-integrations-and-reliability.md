@@ -1,7 +1,11 @@
 ---
-title: Summaries, Integrations, and Agent Reliability
+title: Summaries, integrations, and agent reliability
 date: 2025-12-22
 tag: AX
 ---
 
-This release improves case handovers with automatic task summaries, expands retrieval via SharePoint and MCP integrations, and increases multi-step agent reliability for longer execution chains. Teams get faster onboarding into active work, better connected context, and fewer dropped steps in complex automations.
+A few improvements shipping together:
+
+- **Automatic task summaries** for faster case handovers
+- **SharePoint and MCP integrations** for broader retrieval
+- **More reliable multi-step agents** that hold up across longer execution chains

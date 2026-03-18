@@ -1,41 +1,37 @@
 ---
-title: Tool Forge Epic for Code in the Loop
-description: Tool Forge unifies secure agent runtime, self-service tool building, and process-native app creation so domain experts and agents can build, test, and execute custom code directly in procedures with step-change gains in time to value and iteration speed.
+title: Tool Forge
+description: Build, test, and run custom code directly inside procedures — with coding agents, a secure runtime, and process-native app creation.
 date: 2026-04-18
 tag: Tools
 releaseType: roadmap
 contentPage: true
 ---
 
-Tool Forge is the Q2 epic that consolidates Interloom's code in the loop roadmap into one capability. It brings leading coding agents into a secure, governed environment so domain teams can build and run custom process tools without long handoffs to central engineering.
+Tool Forge brings coding agents into a secure, governed environment so domain teams can build and run custom tools without long handoffs to engineering.
 
-### Why this changes time to value
+### Closing the gap between process design and code
 
-Most business process automation programs lose momentum at the boundary between process design and code delivery. Tool Forge closes that gap by letting domain experts define requirements in context, generate a first version with an agent, test it against live process data, and deploy it into the same procedure loop.
+Most automation programs stall at the boundary between process design and code delivery. Tool Forge lets domain experts define requirements in context, generate a first version with an agent, test it against live data, and deploy — all in the same procedure.
 
-This shortens the path from idea to measurable production impact from weeks to days and, for many changes, from days to hours.
+The path from idea to production goes from weeks to days, and often from days to hours.
 
-### From Human in the Loop to Code in the Loop
+### Code in the loop
 
-Interloom already supports human checkpoints where judgment is required. Tool Forge adds a new pattern: **Code in the Loop (CITL)**.
+We already support human checkpoints where judgment is needed. Tool Forge adds a new pattern: **Code in the Loop**.
 
-In CITL, custom code modules become first class procedure building blocks that can be:
+Custom code modules become first-class procedure building blocks:
 
-- drafted by users with agent support,
-- refined through simulation and test runs,
-- executed as part of standard stage transitions,
-- monitored with full traceability in activity history.
+- Draft them with agent support
+- Refine through simulation and test runs
+- Execute as part of stage transitions
+- Monitor with full traceability
 
-The result is not replacing humans, but giving both humans and agents a higher leverage execution layer inside the process itself.
+This doesn't replace humans — it gives both humans and agents a more powerful execution layer inside the process itself.
 
 ### Secure by design
 
-Tool Forge includes the secure runtime foundation in the same epic. Execution is controlled through explicit policies for permissions, dependency boundaries, resource limits, and full auditability. This allows organizations to expose self service build power while preserving governance requirements in regulated and high risk workflows.
+Execution is controlled through explicit policies: permissions, dependency boundaries, resource limits, and full auditability. Teams get self-service build power without compromising governance.
 
-### Process native app building
+### Process-native apps
 
-The epic also includes process-native app building so teams can package reusable functions, internal mini-applications, and specialized automation modules directly from procedures. Build, test, and execution happen in one operational surface, which reduces coordination overhead and speeds up continuous improvement.
-
-### Potential impact
-
-Over time, teams can build a reusable internal library of process specific capabilities: validators, enrichment tools, pricing logic, compliance checks, routing strategies, and mini-applications tailored to their operating model. This creates compounding speed where each new process starts from proven components instead of rebuilding logic from scratch.
+Teams can also package reusable functions, mini-applications, and automation modules directly from procedures. Over time, you build an internal library of proven components — validators, enrichment tools, compliance checks, routing strategies — so each new process starts from what already works.

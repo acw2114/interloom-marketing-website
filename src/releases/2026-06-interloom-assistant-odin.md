@@ -1,38 +1,32 @@
 ---
 title: Interloom Assistant (Odin)
-description: Interloom Assistant (Odin) introduces a personal chief of staff for process operations, starting with forward deployed engineers and workflow architects to design, test, deploy, and continuously improve reliable execution flows across teams, agents, skills, and tools.
+description: A personal chief of staff for process operations — design, test, deploy, and improve execution flows across teams, agents, skills, and tools.
 date: 2026-06-24
 tag: AX
 releaseType: roadmap
 contentPage: true
 ---
 
-Interloom Assistant (Odin) is a roadmap epic for a personal chief of staff experience across the platform. The long-term goal is to support all users. The initial focus is on forward deployed engineers and workflow architects who design, test, deploy, and iterate on procedures and execution flows for complex business operations.
+Odin is a personal chief of staff for process operations. The long-term goal is to support all users. We're starting with forward deployed engineers and workflow architects who design, test, and iterate on procedures for complex operations.
 
-### Why this epic matters now
+### Why now
 
-Most Q1 stories focused on giving agents stronger context and broader tool access. Odin builds on that foundation and turns it into an operational copilot layer that actively helps teams run and improve work, not just automate isolated tasks.
+Q1 focused on giving agents stronger context and broader tool access. Odin builds on that foundation — turning it into an active layer that helps teams run and improve work, not just automate isolated tasks.
 
-### Scope of the epic
+### What it orchestrates
 
-Odin is designed to orchestrate work across:
+Odin works across:
 
-- domain experts operating in spaces,
-- agents and their delegated responsibilities,
-- reusable skills and tools,
-- procedure stages and execution paths,
-- cross-system and cross-department workflows.
+- Domain experts operating in spaces
+- Agents and their delegated responsibilities
+- Reusable skills and tools
+- Procedure stages and execution paths
+- Cross-system and cross-department workflows
 
-The objective is faster and more reliable case resolution in back-office operations, even when many systems, teams, user groups, and agents are involved.
+### Agent choice
 
-### Agent choice and execution power
+The project includes support for multiple agents (starting with Claude Code and Codex), plus full CLI and MCP access to Interloom primitives. Pick the right execution model for each task while keeping everything grounded in one operating context.
 
-The epic includes agent choice with at least Claude Code and Codex, plus full CLI and MCP access to Interloom primitives. This allows teams to choose the right execution model for each task while keeping design and runtime actions grounded in one operating context.
+### Experts stay in the loop
 
-### Expert in the loop, chief of staff in the loop
-
-Odin does not remove human ownership. It reinforces it. Experts remain in the loop while Odin acts as a chief of staff that continuously monitors execution, highlights risks, and alerts teams where intervention or iteration is needed across core business process management functions.
-
-### Expected impact
-
-By combining context, tools, skills, and continuous oversight into one assistant layer, Odin can unlock a step-change in speed for workflow design and operation, while improving reliability and control in high-complexity business processes.
+Odin doesn't remove human ownership — it reinforces it. Experts stay in the loop while Odin monitors execution, highlights risks, and flags where intervention is needed.

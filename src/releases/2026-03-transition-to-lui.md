@@ -1,8 +1,10 @@
 ---
-title: AI-First Design System LUI (Loom User Interface)
+title: LUI design system
 date: 2026-03-05
 tag: UX
 releaseType: roadmap
 ---
 
-This roadmap item moves the product UI to a unified design system called lui, creating a single source of truth for presentation logic across the application. The plan includes standardized standard and wide layouts with a universal top bar and sidebar, strict separation between UI components and business logic, and a layered architecture of components, theme foundations, and data-model-aligned game object components. The customer value is a more predictable and cohesive product experience, plus faster and safer interface improvements over time.
+We're moving the product UI to a unified design system called LUI (Loom User Interface). One source of truth for all presentation logic — standardized layouts, universal top bar and sidebar, strict separation between UI and business logic.
+
+The goal is a more consistent product experience and faster, safer UI improvements going forward.

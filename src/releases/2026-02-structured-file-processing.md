@@ -1,7 +1,9 @@
 ---
-title: Structured File Processing
+title: Structured file processing
 date: 2026-02-22
 tag: Tools
 ---
 
-The assistant can now parse and analyze uploaded files directly in conversation, including CSV, TSV, XLS, XLSX, JSON, JSONL, and PDF up to 100 MB, with structure-aware previews and sheet-level handling for spreadsheets. Customers can move from raw documents to actionable insights in one place, without external conversion steps.
+Upload and analyze files directly in conversation — CSV, TSV, XLS, XLSX, JSON, JSONL, and PDF up to 100 MB. Spreadsheets get structure-aware previews with sheet-level handling.
+
+Go from raw documents to insights without switching tools.

@@ -1,7 +1,7 @@
 ---
-title: Code Interpreter and External API Access
+title: Code interpreter and API access
 date: 2026-01-14
 tag: Tools
 ---
 
-The assistant can now execute Python in an isolated runtime for structured analysis and call external HTTP or GraphQL endpoints to fetch and update operational data during task execution. Customers can automate richer end-to-end workflows without leaving Interloom or building custom glue code first.
+The assistant can now run Python in an isolated runtime and call external HTTP or GraphQL endpoints during task execution. Analyze data, fetch records, push updates — all without leaving the conversation.

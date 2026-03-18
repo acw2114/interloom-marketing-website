@@ -1,9 +1,9 @@
 ---
-title: Permission-Aware Search
+title: Permission-aware search
 date: 2025-08-05
 tag: Security
 ---
 
-Document search now fully respects workspace permissions. When the AI assistant searches your document library, it returns only content the current user can access, filtering out files and notes from restricted spaces and contexts.
+Document search now respects workspace permissions. The assistant only returns content the current user can access, filtering out files from restricted spaces.
 
-Search queries are batched for performance so permission checks do not slow response times, even across large libraries. This makes AI-powered retrieval safe for multi-team environments handling sensitive or segmented information.
+Permission checks are batched so they don't slow down response times, even across large libraries.

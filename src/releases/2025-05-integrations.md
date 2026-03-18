@@ -1,7 +1,7 @@
 ---
-title: Native Integrations for SAP, Salesforce, and ServiceNow
+title: SAP, Salesforce, and ServiceNow integrations
 date: 2025-05-19
 tag: Tools
 ---
 
-Interloom added direct SAP, Salesforce, and ServiceNow connectors with bi-directional synchronization and webhook triggers, so workflows can start and complete against core enterprise systems without middleware. Customers can launch automation faster, reduce integration maintenance, and keep business data consistent across platforms.
+We've added native connectors for SAP, Salesforce, and ServiceNow with bi-directional sync and webhook triggers. Workflows can start and complete against your core enterprise systems directly — no middleware needed.

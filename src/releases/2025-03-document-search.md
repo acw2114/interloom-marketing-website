@@ -1,7 +1,9 @@
 ---
-title: Document Search
+title: Document search
 date: 2025-03-11
 tag: Tools
 ---
 
-Interloom now indexes workspace documents in the background and lets the assistant retrieve relevant passages across files, notes, and attachments so responses are grounded in searchable operational context. Customers get faster, evidence-backed answers and spend less time manually hunting for supporting information.
+The assistant can now search across your files, notes, and attachments to ground its responses in real workspace content. Documents are indexed in the background — no setup required.
+
+Answers come with evidence from your actual documents instead of general knowledge.

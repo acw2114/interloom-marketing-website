@@ -1,7 +1,9 @@
 ---
-title: Improved Document Extraction and Email Parsing
+title: Document extraction and email parsing
 date: 2025-01-06
 tag: Tools
 ---
 
-Interloom introduced a stronger two-pass extraction pipeline for scanned and annotated documents and added email thread reconstruction for clearer conversation context, with additional reliability gains for high-volume processing. Customers can process complex inbound content more accurately while reducing manual cleanup and rework.
+We've upgraded the extraction pipeline to handle scanned and annotated documents in two passes, and added email thread reconstruction so conversations stay in context.
+
+Processing is also more reliable at high volume — fewer errors, less manual cleanup.

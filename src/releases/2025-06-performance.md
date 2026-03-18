@@ -1,7 +1,9 @@
 ---
-title: Three Times the Throughput with Sub-Second Latency
+title: Performance
 date: 2025-06-02
 tag: Tools
 ---
 
-Interloom rewrote the execution engine for parallel branch processing, reduced deterministic step latency to sub-second performance, and introduced streaming outputs for faster downstream action. Customers can run more work in parallel, shorten cycle times, and react to intermediate results sooner.
+We rewrote the execution engine for parallel processing. Step latency is now sub-second, and outputs stream as they complete.
+
+The result is roughly 3x throughput — more work runs in parallel, and downstream actions start sooner.

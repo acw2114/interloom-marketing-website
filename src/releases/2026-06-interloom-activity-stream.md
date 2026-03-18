@@ -1,48 +1,40 @@
 ---
-title: Interloom Activity Stream
-description: Interloom Activity Stream introduces a central event bus for all user and agent activity, structured as subject, activity type, object, and data to power context graph traces, process mining, and procedure iteration.
+title: Activity stream
+description: A central event bus for all user and agent activity, powering context graph traces, process mining, and procedure iteration.
 date: 2026-06-20
 tag: Context Graph
 releaseType: roadmap
 contentPage: true
 ---
 
-Interloom Activity Stream is a central event bus that captures all activities across the platform, and selected activities outside the platform, in one structured pipeline.
+A central event bus that captures all activity across the platform in one structured pipeline. Every event follows a consistent schema:
 
-Every event follows a consistent schema:
+- **Subject** — who initiated the activity
+- **Activity type** — what happened
+- **Object** — what the activity acted on
+- **Data** — the structured payload and context
 
-- **subject**: who initiated the activity,
-- **activity type**: what happened,
-- **object**: what the activity acted on,
-- **data**: the structured payload and context.
+### What this powers
 
-### Central pipeline for downstream consumers
+The stream feeds downstream consumers including the Context Graph. You can pull complete traces of user and agent activity within a case, across related cases, or across broader process segments. This supports:
 
-The stream is designed as a core pipeline for downstream use cases and consumers, including the Context Graph. It enables retrieval of complete traces of user and agent activity within one case, across a related case set, or across broader process segments for analysis.
+- Process mining
+- Procedure iteration
+- Quality analytics
+- Governance reporting
 
-This supports high-value scenarios such as:
+### Connected through the context graph
 
-- process mining,
-- procedure iteration loops,
-- operational quality analytics,
-- reliability and governance reporting.
+Activities reference other objects through the Context Graph, so you can aggregate them in two ways:
 
-### Activity references through the Context Graph
+- **By object** — for example, all messages an agent posted across the workspace
+- **By scope** — for example, all activities in a space or case
 
-Like everything in Interloom, activities reference other objects through the Context Graph. This creates a durable relationship model between operational entities and the work performed on them.
+### Two pillars
 
-Activities can be aggregated in two primary ways:
+The Context Graph is built on two foundations:
 
-- **by object**, for example all messages an agent posted across the workspace,
-- **by primitive scope**, for example all activities in a space or all activities in a case.
+- The **object graph** captures business structure (object-to-object relationships)
+- The **activity stream** captures execution behavior (how work actually happens)
 
-That aggregation model forms the trace layer needed for deep operational visibility.
-
-### Second pillar of the Context Graph
-
-Interloom's Context Graph is built on two pillars:
-
-- the **object graph** (business ontology, object-to-object relationships),
-- the **activity stream graph** (activity-to-object relationships and observed patterns of work).
-
-The first pillar captures business structure. The second captures execution behavior. Together they let Interloom reinforce successful work patterns for case resolution and continuously improve procedure design over time.
+Together, they let us reinforce successful patterns and continuously improve procedure design.
