@@ -4,6 +4,6 @@ date: 2025-09-05
 tag: UX
 ---
 
-We've rebuilt the text editor from the ground up on a modern Tiptap-based architecture. Faster performance, more reliable formatting, better link handling, and proper support for entity references and inline mentions.
+We've completely rebuilt the text editing experience from the ground up. The new editor, built on Tiptap, delivers faster, more reliable writing across notes, task descriptions, and messages.
 
-The kind of foundational upgrade that makes everything feel sharper.
+Formatting is more intuitive, link handling works as you'd expect, and the editor handles complex content — including entity references and inline mentions — without the quirks of the previous version. If you spend your day writing and editing inside Interloom, this is the kind of foundational upgrade that makes everything feel sharper.

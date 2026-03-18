@@ -4,6 +4,6 @@ date: 2025-09-15
 tag: AX
 ---
 
-After completing an action, the agent now analyzes the current state of your task and suggests relevant next steps — surfacing follow-ups you might not have considered and recommending the right specialist for each one.
+The assistant is now more proactive about keeping work moving forward. After completing an action, it analyzes the current state of your task and suggests the most relevant next steps — surfacing follow-ups you might not have considered and recommending the right specialist agent for each one.
 
-Agents can also apply structured plans directly. Instead of just suggesting what to do, the assistant takes a high-level plan and executes it step by step.
+On top of that, agents can now apply structured plans directly to your work. Instead of just suggesting what to do, the assistant can take a high-level plan and execute it step by step — turning strategy into action with a single interaction. Together, these changes shift the AI from a reactive tool to a genuine collaborator that anticipates and drives your workflow.

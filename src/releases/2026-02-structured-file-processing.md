@@ -4,6 +4,6 @@ date: 2026-02-22
 tag: Tools
 ---
 
-Upload a spreadsheet, CSV, JSON file, or PDF and the assistant parses it into structured data it can reason about — column types, row counts, formatted previews. Navigate between Excel sheets, render PDF pages, and extract content for analysis.
+The assistant can now read and analyze the contents of uploaded files directly within a conversation. Upload a spreadsheet, CSV, JSON file, or PDF, and it parses it into structured data it can reason about — returning column types, row counts, and a formatted preview. For Excel files, it navigates between sheets. For PDFs, it renders page-by-page previews and extracts content for analysis.
 
-Supports CSV, TSV, XLS, XLSX, JSON, JSONL, and PDF up to 100 MB.
+You can ask questions about a dataset, cross-reference a spreadsheet against case details, or pull specific figures from a report without ever leaving the thread. Supports CSV, TSV, XLS, XLSX, JSON, JSONL, and PDF up to 100 MB.
