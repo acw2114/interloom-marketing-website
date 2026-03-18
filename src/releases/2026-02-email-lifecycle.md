@@ -1,14 +1,13 @@
 ---
-title: Email lifecycle in tasks
+title: "Email: Drafting, Sending and Threading"
 date: 2026-02-02
 tag: AX
 ---
 
-End-to-end email handling now works inside case workflows:
+Interloom now supports the full email lifecycle directly within the platform. Your AI assistant can compose email drafts informed by the full context of a case — prior correspondence, attached documents, conversation history — and refine them through natural conversation. When you're ready, send directly from Interloom without switching to a separate email client.
 
-- Inbound routing to the right task
-- Context-aware draft replies
-- User review before send
-- Correct thread continuation across follow-ups
+Replies from recipients are automatically routed back to the correct task thread using cryptographically signed reply-to addresses, keeping the entire exchange in one place.
 
-No more missed follow-ups or manual triage at scale.
+Combined with existing incoming email support, this closes the loop entirely: inbound mail creates tasks, the agent drafts responses grounded in case context, you review and send, and replies land back in the same conversation thread.
+
+For teams whose workflows are driven by email, this eliminates the constant toggling between inbox and case management — every message lives alongside the work it relates to.
