@@ -4,6 +4,8 @@ date: 2026-02-02
 tag: AX
 ---
 
+![Email drafting](/images/releases/email.png)
+
 We now support the full email lifecycle directly within the platform. The assistant can compose email drafts informed by the full context of a case — prior correspondence, attached documents, conversation history — and refine them through natural conversation. When you're ready, send directly from Interloom without switching to a separate email client.
 
 Replies from recipients are automatically routed back to the correct task thread using cryptographically signed reply-to addresses, keeping the entire exchange in one place.

@@ -4,6 +4,8 @@ date: 2026-02-13
 tag: AX
 ---
 
+![Procedure stages](/images/releases/stages.png)
+
 Structured, sequential process management for Interloom. Define the phases a case should move through — intake, investigation, review, resolution — and the platform tracks progression automatically. Stages start the moment a first message arrives, so cases begin advancing through your workflow without manual intervention.
 
 From the task overview, managers can see at a glance which stage every active case sits in across the entire pipeline.
