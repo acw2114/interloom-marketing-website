@@ -46,6 +46,7 @@
         <a href="{{ '/blog/' | url }}" class="{{ 'text-fg-1' if page.url.startsWith('/blog/') else 'text-fg-2' }} px-2 py-0.5 rounded no-underline hover:text-fg-1 transition-colors" style="background:color-mix(in srgb,var(--color-fg-1) {{ '8%' if page.url.startsWith('/blog/') else '0%' }},transparent)">Blog</a>
         <a href="{{ '/releases/' | url }}" class="{{ 'text-fg-1' if page.url.startsWith('/releases/') else 'text-fg-2' }} px-2 py-0.5 rounded no-underline hover:text-fg-1 transition-colors" style="background:color-mix(in srgb,var(--color-fg-1) {{ '8%' if page.url.startsWith('/releases/') else '0%' }},transparent)">Releases</a>
         <a href="{{ '/docs/' | url }}" class="{{ 'text-fg-1' if page.url.startsWith('/docs/') else 'text-fg-2' }} px-2 py-0.5 rounded no-underline hover:text-fg-1 transition-colors" style="background:color-mix(in srgb,var(--color-fg-1) {{ '8%' if page.url.startsWith('/docs/') else '0%' }},transparent)">Documentation</a>
+        <a href="{{ '/research/' | url }}" class="{{ 'text-fg-1' if page.url == '/research/' else 'text-fg-2' }} px-2 py-0.5 rounded no-underline hover:text-fg-1 transition-colors" style="background:color-mix(in srgb,var(--color-fg-1) {{ '8%' if page.url == '/research/' else '0%' }},transparent)">Research</a>
       </div>
       <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2eEwV1c880TGi16I1QWst6PTzbawnSjH9mV1e49ihrW3raJf-nKrwUIua0S59qEtt5TkGFmrfr" class="desktop-nav inline-flex items-center h-6 xl:h-7 bg-fg-1 text-surface-1 px-2 xl:px-3 text-sm xl:text-base rounded font-medium no-underline hover:opacity-85 transition-opacity">Demo</a>
       <button type="button" class="mobile-menu-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu">
@@ -59,6 +60,7 @@
         <a href="{{ '/blog/' | url }}" class="mobile-menu__link">Blog</a>
         <a href="{{ '/releases/' | url }}" class="mobile-menu__link">Releases</a>
         <a href="{{ '/docs/' | url }}" class="mobile-menu__link">Documentation</a>
+        <a href="{{ '/research/' | url }}" class="mobile-menu__link">Research</a>
         <div class="mobile-menu__cta">
           <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2eEwV1c880TGi16I1QWst6PTzbawnSjH9mV1e49ihrW3raJf-nKrwUIua0S59qEtt5TkGFmrfr" class="mobile-menu__demo">Book a Demo</a>
         </div>
@@ -98,6 +100,7 @@
           <a href="{{ '/releases/' | url }}" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Release Notes</a>
           <a href="{{ '/plug-and-play-germany-summit-2026/' | url }}" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Plug&amp;Play Germany Summit 2026</a>
           <a href="#" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">API Reference</a>
+          <a href="{{ '/research/' | url }}" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Research</a>
         </div>
         <div class="flex flex-col gap-2">
           <a href="{{ '/legal/' | url }}" class="text-sm text-fg-3 no-underline hover:text-fg-1 transition-colors">Legal</a>
